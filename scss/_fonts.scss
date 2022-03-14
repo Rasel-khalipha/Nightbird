@@ -1,0 +1,76 @@
+$hf: "oxanium", cursive;
+$pf: "opensans", sans-serif;
+
+// heading font
+%hfb1 {
+	font-family: $hf;
+	font-weight: 600;
+	font-size: 60px;
+}
+%hfb2 {
+	font-family: $hf;
+	font-weight: 600;
+	font-size: 22px;
+}
+%hfb3 {
+	font-family: $hf;
+	font-weight: 600;
+	font-size: 16px;
+}
+%hfb4 {
+	font-family: $hf;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+// paragraph font
+%pfb1 {
+	font-family: $pf;
+	font-weight: 700;
+	font-size: 22px;
+}
+%pfb2 {
+	font-family: $pf;
+	font-weight: 700;
+	font-size: 13px;
+}
+%pfb3 {
+	font-family: $pf;
+	font-weight: 700;
+	font-size: 16px;
+}
+%pfb4 {
+	font-family: $pf;
+	font-weight: 700;
+	font-size: 14px;
+}
+%pfr1 {
+	font-family: $pf;
+	font-weight: 400;
+	font-size: 14px;
+}
+%pfr2 {
+	font-family: $pf;
+	font-weight: 400;
+	font-size: 13px;
+}
+%pfr3 {
+	font-family: $pf;
+	font-weight: 400;
+	font-size: 22px;
+}
+%pfr4 {
+	font-family: $pf;
+	font-weight: 400;
+	font-size: 12px;
+}
+%pfr5 {
+	font-family: $pf;
+	font-weight: 400;
+	font-size: 16px;
+}
+%pfl1 {
+	font-family: $pf;
+	font-weight: 300;
+	font-size: 14px;
+}

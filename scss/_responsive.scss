@@ -1,0 +1,257 @@
+// for below small screen
+@media (max-width: 575px) {
+	// navbar area starts
+	.navbar {
+		position: relative;
+		.navbar-brand {
+			img {
+				width: 120px !important;
+			}
+		}
+		.navbar-toggler {
+			background: #fff;
+			border: none;
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			i {
+				color: $primary-color;
+			}
+		}
+		.navbar-nav {
+			position: absolute;
+			top: 75px;
+			left: -15px;
+			.nav-item {
+				.nav-link {
+					font-size: 12px !important;
+					&::after {
+						left: 120% !important;
+						bottom: 5px !important;
+						width: 20px !important;
+					}
+				}
+			}
+		}
+	}
+	// navbar area ends
+
+	// banner area starts
+	#slider-area {
+		.image-slider {
+			.slider-item {
+				.slider-content {
+					width: 100%;
+					h2 {
+						font-size: 30px !important;
+					}
+					h3 {
+						font-size: 18px;
+					}
+					p {
+						max-width: 250px !important;
+						margin: 0 auto;
+					}
+					a {
+						padding: 0 12px !important;
+						font-size: 12px !important;
+						line-height: 25px !important;
+					}
+				}
+			}
+		}
+	}
+	// banner area ends
+
+	// about area starts
+	#about-area {
+		padding: 20px 0 !important;
+		.about-middle {
+			margin: 20px 0 !important;
+			.sub-heading {
+				padding-bottom: 20px !important;
+				h3 {
+					font-size: 18px !important;
+				}
+			}
+			p {
+				padding: 0 10px !important;
+				margin-bottom: 20px;
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+			}
+			a {
+				padding: 0 12px !important;
+				font-size: 12px !important;
+				line-height: 30px !important;
+			}
+		}
+	}
+	// about area ends
+
+	// gallery area starts
+	#gallery-area {
+		.sub-heading {
+			h3 {
+				font-size: 18px;
+			}
+		}
+		.gallery-btn {
+			padding: 0 12px !important;
+			font-size: 12px !important;
+			line-height: 30px !important;
+		}
+	}
+	// gallery area ends
+
+	// dj's area starts
+	#dj-area {
+		.sub-heading {
+			h3 {
+				font-size: 18px;
+			}
+		}
+	}
+	// dj's area ends
+
+	// events area starts
+	#events-area {
+		.sub-heading {
+			h3 {
+				font-size: 18px !important;
+			}
+		}
+		.events-details {
+			.events-sliders {
+				.event-slider1 {
+					.content {
+						margin-top: 20px !important;
+						.text-area {
+							h3 {
+								font-size: 13px !important;
+							}
+							.date {
+								font-size: 12px !important;
+								text-align: center;
+							}
+							.details {
+								margin-right: 0 !important;
+								font-size: 12px !important;
+								text-align: center;
+							}
+							.price {
+								font-size: 14px !important;
+								text-align: center;
+							}
+						}
+						.countdowns {
+							text-align: center;
+							.countdown {
+								width: 50px;
+								height: 50px;
+								background: #fff;
+								border-radius: 50%;
+								margin-right: 20px;
+								font-size: 13px !important;
+								p {
+									font-size: 10px !important;
+								}
+								&:last-of-type {
+									margin-right: 0 !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	// events area ends
+
+	// blog area starts
+	#blog {
+		padding-top: 20px !important;
+		padding-bottom: 70px !important;
+		height: 1500px !important;
+		.sub-heading {
+			padding-bottom: 15px !important;
+			h3 {
+				font-size: 18px !important;
+			}
+		}
+		.blog-slider {
+			margin-top: 40px !important;
+			.blog-item {
+				margin-left: 0 !important;
+				margin-right: 0 !important;
+				margin-bottom: 50px !important;
+				.blog-details {
+					padding-top: 10px !important;
+					padding-bottom: 10px !important;
+					h3 {
+						font-size: 13px !important;
+					}
+					.blog-text {
+						padding-top: 10px !important;
+						margin: 0 !important;
+					}
+				}
+				a {
+					margin-top: 10px !important;
+					padding: 0 12px !important;
+					font-size: 12px !important;
+					line-height: 30px !important;
+				}
+				&:hover {
+					padding-bottom: 20px !important;
+					.blog-details {
+						margin-bottom: 10px !important;
+					}
+				}
+			}
+		}
+	}
+	// blog area ends
+
+	// testimonial area starts
+	#testimonial {
+		padding-top: 20px !important;
+		.sub-heading {
+			h3 {
+				font-size: 18px !important;
+			}
+		}
+		.testimonial-details {
+			padding-top: 20px !important;
+			.image {
+				width: 50% !important;
+				text-align: center;
+			}
+			.testimonial-txt {
+				margin-top: 150px !important;
+			}
+		}
+	}
+	// testimonial area ends
+}
+
+// for small screen to medium screen
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+// for medium screen to large screen
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+// for large screen to extra large screen
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+// for large screen to extra extra large screen
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+// for above extra extra large screen
+@media (min-width: 1400px) {
+}
